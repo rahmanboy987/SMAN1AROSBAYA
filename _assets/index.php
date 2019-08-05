@@ -1,3 +1,7 @@
+<?php
+    include("../_config/config.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -39,25 +43,19 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">Siswa</a>
+                    <a href="#">Beranda</a>
                 </li>
                 <li>
-                    <a href="#">Download</a>
+                    <a href="../">LIHAT WEB</a>
                 </li>
                 <li>
-                    <a href="#">Kelas</a>
+                    <a href="#">BLOG</a>
                 </li>
                 <li>
-                    <a href="#">Siswa</a>
+                    <a href="#">DATA</a>
                 </li>
                 <li>
-                    <a href="#">Guru</a>
-                </li>
-                <li>
-                    <a href="#">User</a>
-                </li>
-                <li>
-                    <a href="#">Logout</a>
+                    <a href="../admin/logout.php">Logout</a>
                 </li>
             </ul>
         </div>
