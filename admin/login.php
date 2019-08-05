@@ -22,11 +22,11 @@
                     <?php
                     if(isset($_POST['login'])){
                         $user = trim(mysqli_real_escape_string($con, $_POST['user']));
-                        $pass = sha1(trim(mysqli_real_escape_string($con,$_POST['user'])));
-                        $sql_login = mysqli_query($con, "SELECT * FROM tb_user WHERE username='$user' AND password='$pass'") or die (mysqli_error($con));
+                        $pass = md5(trim(mysqli_real_escape_string($con,$_POST['user'])));
+                        $sql_login = mysqli_query($con, "SELECT * FROM admin WHERE username='$user' AND password='$pass'") or die (mysqli_error($con));
                         if (mysqli_num_rows($sql_login) > 0){
                             $_SESSION['user'] = $user;
-                            echo "<script>window.location='".base_url()."';</script>";
+                            echo "<script>window.location='".base_url("/_assets/")."';</script>";
                         } 
                         else{ ?>
                             <div class="row">
