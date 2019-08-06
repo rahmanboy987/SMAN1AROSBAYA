@@ -12,8 +12,4 @@ include("../_config/config.php");
     <title>Document</title>
 </head>
 
-<body>
-
-</body>
-
 </html>
