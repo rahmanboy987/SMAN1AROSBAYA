@@ -6,16 +6,16 @@
                 <a href="../admin/dashboard.php.php">Dashboard</a>
             </li>
             <li>
-                <a href="../">LIHAT WEB</a>
+                <a href="../">Lihat Web</a>
             </li>
             <li>
-                <a href="#">BLOG</a>
+                <a href="#">Blog</a>
             </li>
             <li>
-                <a href="#">DATA</a>
+                <a href="#">Data</a>
             </li>
             <li>
-                <a href="../admin/logout.php" color=>Logout</a>
+                <a href="../admin/logout.php" class="text-danger">Logout</a>
             </li>
         </ul>
     </div>

@@ -16,6 +16,7 @@ include("../_config/config.php");
     <!-- CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/simple-sidebar.css" rel="stylesheet">
+
 </head>
 
 <body>
