@@ -3,7 +3,7 @@
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <li class="sidebar-brand">
-                <a href="../admin/dashboard.php.php">Dashboard</a>
+                <a href="../admin/dashboard.php">Dashboard</a>
             </li>
             <li>
                 <a href="../">Lihat Web</a>
