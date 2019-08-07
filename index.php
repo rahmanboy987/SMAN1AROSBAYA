@@ -1,2 +1,2 @@
 <?php
-header('Location: maintenance.html');
+header('Location: home.html');
